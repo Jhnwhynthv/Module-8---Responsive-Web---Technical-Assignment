@@ -1,0 +1,31 @@
+1.  Apa itu responsive web design?
+=>  Responsive Web Design (RWD) adalah bertujuan untuk membuat desain website kita agar dapat diakses dalam devices
+    apapun. Dalam membuat aplikasi kita harus memikirkan user yang akan menggunakannya. device yang umum digunakan
+    yakni laptop/pc, smartphone, dan tablet.
+
+2.  Sebutkan apa saja relative units yang dimiliki oleh CSS?
+=>   %:   Ukurannya relatif terhadap parent element.
+    em:   Ukurannya relatif terhadap font-size dari elemen saat ini.
+    rem:  Ukurannya relatif terhadap font-size root elemen (<html>). "rem" = "root em".
+    ch:   Ukurannya mengikuti jumlah karakter (1 karakter sama dengan lebar dari karakter 0/nol font yang sedang aktif).
+    vh:   Ukurannya relatif terhadap tinggi viewport (ukuran jendela tau aplikasi), 1vh = 1/100 dari tinggi viewport.
+    vw:   Ukurannya relatif terhadap lebar dari viewport. 1vw = 1/100 lebar viewport.
+    vmin: Ukurannya relatif terhadap ukuran viewport yang lebih kecil (misalnya diorientasi portrait, lebar akan lebih 
+          kecil daripada tinggi). 1vmin = 1/100 dari ukuran viewport yang lebih kecil.
+    vmax: Sama dengan vmin, dia akan melihat ukuran viewport yang lebih besar.
+    ex:   Ukurannya relatif terhadap tinggi dari karakter "x" kecil font yang sedang aktif.
+
+3.  Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+=>  Breakpoint adalah saat layout dari halaman web berubah atau responsive. Umumnya breakpoint terjadi saat ukuran viewport 
+    membesar atau mengecil.
+    cara kita membuat breakpoint kita harus mengatur skala halaman html sesuai lebar viewport, sehingga website tampil di layar.
+    lalu kita menentukan struktur HTML Website, yang biasanya terdiri dari header, content, sidebar serta footer.
+    setelah itu kita Membuat Media Query di CSS Untuk Memerintahkan Browser.
+
+4.  Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+=>  kita dapat menggunakan Media Query CSS yang mana kita akan memiliki beberapa file style untuk mendeteksi resolusi layar 
+    gadget agar pada resolusi tersebut style nya menyesuaikan dengan devicenya juga.
+
+5.  Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+=>  kita dapat menggunakan media query css atau  kita bisa saja menggunakan framework CSS yang bertebaran di internet sesuai 
+    kebutuhan kita, biasanya tiap framework punya hitungan masing-masing terkait dengan penjabaran lebar tiap device nya.
